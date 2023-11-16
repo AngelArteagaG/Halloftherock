@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hall Of The Rock</title>
+  <!-- Importe de iconos superior -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <!-- Enlace de iconos de contacto o otros -->
+  <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+  <!-- Enlace de fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Tilt+Neon&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Roboto:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Enlace de Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Enlace de css -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Lireria de efectos jquery -->
+  <script src="jquery.js"></script>
+
+</head>
+
+<body>
+  <!-- Menu -->
+  <!-- INICIO DE MENÚ DE NAVEGACIÓN -->
+  <header id="header">
+    <nav class="menu">
+      <div class="logo">
+        <a href="#">
+          <img src="img/HallOfTheRock aa.png" alt="" class="img-fluid img-logo">
+        </a>
+        <a href="#" class="btn-menu" id="btn-menu">
+          <i class="fa-solid fa-bars icono-menu"></i>
+        </a>
+      </div>
+      <div class="enlaces" id="enlaces">
+        <a href="index.html">INICIO</a>
+        <a href="poleras.html">ROPA</a>
+        <a href="discos.html">DISCOS</a>
+        <a href="accesorios.html">ACCESORIOS</a>
+        <a href="eventos.html">EVENTOS</a>
+        <a href="contactanos.html">CONTACTANOS</a>
+        <a href="login.html">LOGIN</a>
+      </div>
+    </nav>
+  </header>
+  <!-- FIN DE MENÚ DE NAVEGACIÓN -->
+  <br><br><br>
+
+
+
+
+  <!-- fin de menu -->
+
+
+  <!-- Carrusel slayer de baners de eventos y ofertas -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/Banner-1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/Banner-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/Banner-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/Banner-4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Fin del carrusel -->
+  <br>
+
+
+  <!-- seccion principal de prendas -->
+  <!-- titulo -->
+  <br><br>
+  <div class="cuadrosub">
+    <h1 class="subtittle">Las mejores prendas de tus bandas favoritas</h1>
+
+  </div>
+  <br><br>
+  <!-- Fin de titulo prendas -->
+  <article class="container">
+    <section class="row">
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card">
+          <img src="img/Poloprincipal1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Polo YMA</h5>
+            <p class="card-text">Extremoduro</p>
+            <a href="#" class="btn-primary">30.00 USD</a>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card">
+          <img src="img/Poloprincipal2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gorra</h5>
+            <p class="card-text">AC/DC</p>
+            <a href="#" class="btn-primary">15.00 UDS</a>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card">
+          <img src="img/Poloprincipal3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Polera</h5>
+            <p class="card-text">Leuzemia</p>
+            <a href="#" class="btn-primary">45.00 USD</a>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card">
+          <img src="img/Poloprincipal4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Casaca Jean</h5>
+            <p class="card-text">Sublime</p>
+            <a href="#" class="btn-primary">65.00 USD</a>
+          </div>
+        </div>
+
+      </section>
+    </section>
+  </article>
+
+
+
+  <!-- fin de seccion principal de prendas -->
+
+  <!-- Ofertas principales de discos -->
+
+  <!-- titulo -->
+  <br><br>
+  <div class="cuadrosub">
+    <h1 class="subtittle">Los mejores discos de las bandas más reconocidas</h1>
+  </div>
+  <br><br>
+  <!-- Fin de titulo -->
+  <article class="container">
+    <section class="row">
+
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card">
+          <img src="img/Discoprincipal1.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Salve</h5>
+            <p class="card-text">La Polla Records</p>
+
+            <a href="#" class="btn-primary">55.90 USD</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card">
+          <img src="img/Discoprincipal2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ciudad Indiferente</h5>
+            <p class="card-text">Diazepunk</p>
+
+            <a href="#" class="btn-primary">30.00 USD</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card"">
+          <img src=" img/Discoprincipal3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rocket To Russia</h5>
+            <p class="card-text">Ramonnes</p>
+
+            <a href="#" class="btn-primary">70.99 USD</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card">
+          <img src="img/Discoprincipal4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text_card">Songs About Jane</h5>
+            <p class="card-text">Maroon 5</p>
+
+            <a href="#" class="btn-primary">50.90 USD</a>
+          </div>
+        </div>
+      </section>
+    </section>
+  </article>
+  <!-- Fin seccion principal de discos -->
+
+
+  <!-- seccion principal de accesorios -->
+  <!-- titulo -->
+  <br><br>
+  <div class="cuadrosub">
+    <h1 class="subtittle">Lo mejor en accesorios de tus bandas preferidas</h1>
+  </div>
+  <br><br>
+  <!-- Fin de titulo -->
+  <article class="container">
+    <section class="row">
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card">
+          <img src="img/Accesorioprincipal1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title ">Pulsera de muñeca</h5>
+            <p class="card-text">The Cure</p>
+
+            <a href="#" class="btn-primary"> 5.00 USD</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card">
+          <img src="img/Accesorioprincipal2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Parche bordado</h5>
+            <p class="card-text">Green Day</p>
+
+            <a href="#" class="btn-primary"> 8.50 USD</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card">
+          <img src="img/Accesorioprincipal3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Collar de cuello</h5>
+            <p class="card-text">Eskorbuto</p>
+
+            <a href="#" class="btn-primary"> 3.99 USD</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+        <div class="card bcard">
+          <img src="img/Accesorioprincipal4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Billetera</h5>
+            <p class="card-text">Led Zeppelin</p>
+
+            <a href="#" class="btn-primary">35.90 USD</a>
+          </div>
+        </div>
+      </section>
+    </section>
+  </article>
+  <!-- fin de accesorios -->
+
+
+  <!-- pie de pagina -->
+  <footer class="backpie">
+    <article class="container">
+      <section class="row">
+        <section class="col-xs-12 col-sm-12 col-md-1 mb-3">
+          <i class="fa-solid fa-circle-info iconback" style="color:#FFFF;"></i>
+
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+          <h5 class="piecontent">Noticias e información</h5>
+          <a href="" class="piecontent2">
+            <h7>Novedades</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Nuevas promociones</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Giras de tus bandas favoritas</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Nuevos Productos</h7>
+          </a>
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-1 mb-3">
+          <i class="fa-solid fa-person iconback" style="color: #ffffff;"></i>
+
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+          <h5 class="piecontent">Atención al cliente</h5>
+          <a href="" class="piecontent2">
+            <h7> halloftherock@gmail.com</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7> + 01 2509-0309</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>+51 978 302 491</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>+51 999 999 999</h7>
+          </a><br>
+
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-1 mb-3">
+          <i class="fa-solid fa-book iconback" style="color: #ffffff;"></i>
+
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+          <h5 class="piecontent">¿Quiénes somos?</h5>
+          <a href="" class="piecontent2">
+            <h7>Mision de la empresa</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Vision de la empresa</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Nuestra marca</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Políticas de privacidad</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Términos y condiciones</h7>
+          </a><br>
+
+        </section>
+
+      </section>
+
+    </article>
+    <!-- Inicio de redes -->
+    
+    <article class="container">
+      <section class="row">
+        <section class="col-xs-12 col-sm-12 col-md-4 mb3">
+          <i class="fa-brands fa-facebook iconredsocial" style="color: #ffffff;"></i>
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-4 mb3">
+          <i class="fa-brands fa-instagram iconredsocial" style="color: #ffffff;"></i>
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-4 mb3">
+          <i class="fa-brands fa-whatsapp iconredsocial" style="color: #ffffff;"></i>
+        </section>
+      </section>
+    </article>
+    <br><br>
+    <!-- fin de redes -->
+    <div class="finalcolor">
+      <br>
+      <nav class="finalp">
+        <p class="pipp">HALL OF THE ROCK SAC 2023 © - todos los derechos reservados</p>
+        <p class="pipp">Desarrollado por Angel Arteaga y Brad Rodriguez</p>
+      </nav>
+    </div>
+  </footer>
+  <!-- Fin de pie de pagina -->
+
+
+
+  <!-- Enlaceñ de Boostrap Js -->
+  <!-- enlace boostrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="headroom.min.js"></script>
+  <script src="menu-flex.js"></script>
+
+</body>
+
+</html>

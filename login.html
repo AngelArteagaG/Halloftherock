@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hall Of The Rock</title>
+  <!-- Importe de iconos superior -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <!-- Enlace de iconos de contacto o otros -->
+  <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+  <!-- Enlace de fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Tilt+Neon&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Roboto:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Enlace de Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Enlace de css -->
+  <link rel="stylesheet" href="Styles/styleslogin.css">
+
+  <!-- Lireria de efectos jquery -->
+  <script src="jquery.js"></script>
+  <script src="validaciones.js"></script>
+
+</head>
+
+<body>
+  <!-- Menu -->
+  <!-- INICIO DE MENÚ DE NAVEGACIÓN -->
+  <header id="header">
+    <nav class="menu">
+      <div class="logo">
+        <a href="#">
+          <img src="img/HallOfTheRock aa.png" alt="" class="img-fluid img-logo">
+        </a>
+        <a href="#" class="btn-menu" id="btn-menu">
+          <i class="fa-solid fa-bars icono-menu"></i>
+        </a>
+      </div>
+      <div class="enlaces" id="enlaces">
+        <a href="index.html">INICIO</a>
+        <a href="poleras.html">ROPA</a>
+        <a href="discos.html">DISCOS</a>
+        <a href="accesorios.html">ACCESORIOS</a>
+        <a href="eventos.html">EVENTOS</a>
+        <a href="contactanos.html">CONTACTANOS</a>
+        <a href="login.html">LOGIN</a>
+      </div>
+    </nav>
+  </header>
+  <!-- FIN DE MENÚ DE NAVEGACIÓN -->
+  <br><br><br>
+
+  <article class="container">
+    <section class="row">
+        <section class="col-xs-12 col-sm-12 col-md-12 formulario">
+            <form id="formulario" name="formulario" action="" method="post" class="formu">
+                <img src="img/HallOfTheRock aa.png" alt="" class="img-fluid logo2"><br>
+                <h1 class="titulo">Bienvenidos al Hall of The Rock</h1>
+
+                <label class="labels">Usuario</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre de usuario" required class="cuadro"><br>
+                <label class="labels">Contraseña</label><br>
+                <input type="password" placeholder="Ingrese su Contraseña" required class="cuadro"><br><br>
+                
+                <input type="submit" class="boton"><br><br>
+                <a href="#" class="linko">¿Olvidaste tu contraseña?</a><br>
+                <a href="#" class="linko">Crear cuenta</a>
+                
+            </form>
+
+        </section>
+    </section>
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- pie de pagina 
+  <footer class="backpie">
+    <article class="container">
+      <section class="row">
+        <section class="col-xs-12 col-sm-12 col-md-1 mb-3">
+          <i class="fa-solid fa-circle-info iconback" style="color:#FFFF;"></i>
+
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+          <h5 class="piecontent">Noticias e información</h5>
+          <a href="" class="piecontent2">
+            <h7>Novedades</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Nuevas promociones</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Giras de tus bandas favoritas</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Nuevos Productos</h7>
+          </a>
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-1 mb-3">
+          <i class="fa-solid fa-person iconback" style="color: #ffffff;"></i>
+
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+          <h5 class="piecontent">Atención al cliente</h5>
+          <a href="" class="piecontent2">
+            <h7> halloftherock@gmail.com</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7> + 01 2509-0309</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>+51 978 302 491</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>+51 999 999 999</h7>
+          </a><br>
+
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-1 mb-3">
+          <i class="fa-solid fa-book iconback" style="color: #ffffff;"></i>
+
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-3 mb-3">
+          <h5 class="piecontent">¿Quiénes somos?</h5>
+          <a href="" class="piecontent2">
+            <h7>Mision de la empresa</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Vision de la empresa</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Nuestra marca</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Políticas de privacidad</h7>
+          </a><br>
+          <a href="" class="piecontent2">
+            <h7>Términos y condiciones</h7>
+          </a><br>
+
+        </section>
+
+      </section>
+
+    </article>-->
+    <!-- Inicio de redes 
+
+    <article class="container">
+      <section class="row">
+        <section class="col-xs-12 col-sm-12 col-md-4 mb3">
+          <i class="fa-brands fa-facebook iconredsocial" style="color: #ffffff;"></i>
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-4 mb3">
+          <i class="fa-brands fa-instagram iconredsocial" style="color: #ffffff;"></i>
+        </section>
+        <section class="col-xs-12 col-sm-12 col-md-4 mb3">
+          <i class="fa-brands fa-whatsapp iconredsocial" style="color: #ffffff;"></i>
+        </section>
+      </section>
+    </article>
+    <br><br>
+     fin de redes -
+    <div class="finalcolor">
+      <nav class="finalp">
+        <p class="pipp">HALL OF THE ROCK SAC 2023 © - todos los derechos reservados</p>
+        <p class="pipp">Desarrollado por Angel Arteaga y Brad Rodriguez</p>
+      </nav>
+    </div>
+  </footer>
+  Fin de pie de pagina -->
+
+
+
+  <!-- Enlaceñ de Boostrap Js -->
+  <!-- enlace boostrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="headroom.min.js"></script>
+  <script src="menu-flex.js"></script>
+
+</body>
+
+</html>

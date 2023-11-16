@@ -1,0 +1,277 @@
+:root {
+    --colorprimario: #710F0F;
+    --colorsecundario: white;
+
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+}
+header{
+    background-color:var(--colorprimario);  
+    position: fixed;
+    z-index: 1000000000;
+    top: 0;
+    width: 100%;
+    padding: .8em;
+}
+.btn-menu{
+    display: none;
+}
+.menu{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.enlaces{
+    
+    text-align: right;   
+
+}
+.enlaces a{
+    
+    font-family: 'Rock Salt', cursive;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    font-weight: bolder;
+}
+a:hover{
+    background-color: rgba(240, 248, 255, 0.807);
+    color: black;
+}
+@media screen and (max-width:1023px) {
+    .menu{
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .logo a{
+        display: block;
+        color: white;
+        font-size: 2em;
+    }
+    .img-logo{
+        height: 2em;
+    }
+    .enlaces{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: .8em;
+    }
+
+
+}
+
+/* estilos del titulo */
+.tittle {
+    color:var(--colorsecundario);
+    font-family: 'Rock Salt', cursive;
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+.subtittle {
+    color: var(--colorsecundario);
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.3em;
+    border-style: double var(--colorprimario);
+    margin-top: .3em;
+}
+
+.cuadrosub {
+    display: flow-root;
+    border-style: double;
+    border-color: var(--colorsecundario);
+    background-color: var(--colorprimario);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    border-width: .4em;
+
+
+}
+
+.backpie {
+    background-color: var(--colorprimario);
+    padding-top: 2.2em;
+    padding-bottom: 1em;
+}
+
+.piecontent {
+    color: var(--colorsecundario);
+    font-size: 1.1em
+}
+
+.iconback {
+    font-size: 2.5em;
+}
+
+.piecontent2 {
+    color: var(--colorsecundario);
+    font-size: .7em;
+    text-decoration: none;
+
+}
+
+.piecontent2:hover {
+    color: var(--colorsecundario);
+    font-weight: bolder;
+}
+
+.iconredsocial {
+    font-size: 2.5em;
+    margin-left: 3.3em;
+    margin-top: 1em;
+
+}
+
+.fin1 {
+    color: var(--colorsecundario);
+    font-size: .7em;
+    margin-bottom: -1em;
+    font-weight: bolder;
+
+}
+
+.fin2 {
+    color: var(--colorsecundario);
+    font-size: .7em;
+    margin-bottom: -1em;
+}
+
+.card{
+    background-color: black;
+    border-style: double;
+    padding-bottom: -1em;
+ 
+}
+
+
+.card-title{
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: .9em;
+    
+}
+.card-text{
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: .7em;
+   
+
+}
+.btn-primary{
+    text-align: center;
+    display: block;
+    /* margin-left: 4.5em; */
+    background-color: var(--colorprimario);
+    text-decoration: none;
+    padding: .4em;
+    border-radius: .4em;
+    width: 100%;
+    
+}
+.btn-primary:hover{
+    background-color: white;
+    color: var(--colorprimario);
+    border-style: double;
+    border-color: var(--colorprimario);
+    font-weight: bolder;
+}
+.finalcolor{
+    background-color: var(--colorprimario);
+   
+}
+.finalp{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--fondo);
+    font-size: .7em;
+    color: white;
+    
+}
+.pipp{
+    margin-bottom: 0;
+}
+
+.logo{
+    padding-bottom: 50px;
+    width: 6em;
+    height: 5em;
+}
+
+
+.formulario{
+    font-family: 'Rock Salt', cursive;
+    width: 400px;
+    background-image:url(img/metallica.jpg);
+    box-shadow: 0 5px 5px var(--colorprimario);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    
+}
+
+.titulocon{
+    font-family: 'Rock Salt', cursive;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 30px;
+    color: white;
+}
+
+.controls{
+    width: 100%;
+    border-color: var(--colorprimario);
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid var(--colorprimario);
+}
+
+.btncon{
+    font-family: 'Rock Salt', cursive;
+     width: 100%;
+     background:black;
+     border: none;
+     padding: 12px;
+     color: white;
+     margin: 10px 0;    
+}
+
+label{
+    color: white;
+}
